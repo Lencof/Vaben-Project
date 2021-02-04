@@ -1,8 +1,10 @@
 # __Author__ __Lencof__
 # Vaben.py
 
-from tkinter import *
 
+from tkinter import * # use tkinter
+
+# don't use class
 def add(a,b):
     return a + b
 
@@ -38,8 +40,8 @@ def extraxt_from_text(text):
         try:
             l.append(float(t))
         except ValueError:
-            pass
-    return l
+            pass # empty block
+    return l # repeat
 
 def calculate():
     text = textin.get()
@@ -59,6 +61,7 @@ def calculate():
             list.delete(0,END)
             list.insert(END,'something went wrong please enter again')
 
+# add operations
 operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
                 'SUB':sub , 'DIFFERENCE':sub , 'MINUS':sub , 'SUBTRACT':sub,
                  'LCM':lcm , 'HCF':hcf , 'PRODUCT':mul , 'MULTIPLICATION':mul,
