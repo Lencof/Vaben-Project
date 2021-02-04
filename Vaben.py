@@ -65,16 +65,16 @@ operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
                  'MULTIPLY':mul , 'DIVISION':div , 'DIV':div ,'DIVIDE':div, 'MOD':mod ,
                   'REMANDER':mod , 'MODULUS':mod}
 
-win = Tk()
-win.geometry('1200x600')
-win.title('Vaben')
-win.configure(bg='#F781F3')
+win = Tk() 
+win.geometry('1200x600') # the size
+win.title('Vaben') # Name programm
+win.configure(bg='#F781F3') # indicate your color 
 
-l1 = Label(win , text='I am a Program',width=130 , padx=9)
+l1 = Label(win , text='I am a Program',width=130 , padx=9) # your text
 l1.place(x=150,y=10)
-l2 = Label(win , text='My name is Vaben' , padx=9)
+l2 = Label(win , text='My name is Vaben' , padx=9) # your text
 l2.place(x=200,y=60)
-l3 = Label(win , text='What can i help you' , padx=3)
+l3 = Label(win , text='What can i help you' , padx=3) # your text
 l3.place(x=176,y=130)
 
 textin = StringVar()
