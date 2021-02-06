@@ -1,7 +1,7 @@
 # __Author__ __Lencof__
 # Vaben.py
 
-
+import os
 from tkinter import * # use tkinter
 
 # don't use class
@@ -93,8 +93,9 @@ list.place(x=150,y=230)
 win.mainloop()
 # win.mainloop() close
 
+# Create Vaben file
 Vaben = '''
-You use Vaben
+You use Vaben 
 '''
 
 # Open for 'w'riting
