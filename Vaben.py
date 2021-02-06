@@ -92,3 +92,29 @@ list.place(x=150,y=230)
 
 win.mainloop()
 # win.mainloop() close
+
+Vaben = '''
+You use Vaben
+'''
+
+# Open for 'w'riting
+f = open('Vaben.txt', 'w')
+# Write text to file
+f.write(Vaben)
+# Close the file
+f.close()
+
+# If no mode is specified,
+# 'r'ead mode is assumed by default
+f = open('Vaben.txt')
+while True: # use True
+    line = f.readline()
+    # Zero length indicates EOF
+    if len(line) == 0:
+        break
+    # The `line` already has a newline
+    # at the end of each line
+    # since it is reading from a file.
+    print(line, end='')
+# close the file
+f.close()
