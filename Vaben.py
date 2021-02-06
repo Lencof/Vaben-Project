@@ -68,7 +68,7 @@ operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
                  'MULTIPLY':mul , 'DIVISION':div , 'DIV':div ,'DIVIDE':div, 'MOD':mod ,
                   'REMANDER':mod , 'MODULUS':mod}
 
-win = Tk() 
+win = Tk() # create a window
 win.geometry('1200x600') # the size
 win.title('Vaben') # Name programm
 win.configure(bg='#F781F3') # indicate your color 
@@ -84,10 +84,11 @@ textin = StringVar()
 e1 = Entry(win , width=30 , textvariable = textin)
 e1.place(x=100,y=160)
 
-b1 = Button(win , text='I do not know' ,command=calculate)
+b1 = Button(win , text='I do not know' ,command=calculate) # your text
 b1.place(x=210,y=200)
 
 list = Listbox(win,width=20,height=3)
 list.place(x=150,y=230)
 
 win.mainloop()
+# win.mainloop() close
