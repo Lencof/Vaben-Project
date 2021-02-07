@@ -4,7 +4,6 @@
 import os
 from tkinter import * # use tkinter
 
-# don't use class
 def add(a,b):
     return a + b
 
