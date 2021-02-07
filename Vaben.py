@@ -1,7 +1,7 @@
 # __Author__ __Lencof__
 # Vaben.py
 
-import os
+import os # use os
 from tkinter import * # use tkinter
 
 def add(a,b):
