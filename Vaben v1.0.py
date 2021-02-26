@@ -4,7 +4,6 @@
 # Simply put, I added the shutdown class.
 
 import os # use os
-import time # use time
 from tkinter import *
 
 def add(a,b):
