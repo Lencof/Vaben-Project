@@ -1,5 +1,7 @@
 # __Author__ __Lencof__
 # Vaben v1.0.py
+# added new wichi. after exiting Vaben, the system turns off.
+# Simply put, I added the shutdown class.
 
 import os # use os
 import time # use time
