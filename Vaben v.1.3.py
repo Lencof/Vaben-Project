@@ -1,15 +1,16 @@
 # __Author__ __Lencof__
 # Vaben v.1.3.py
+
 '''
 Vaben v1.3 Update
 added a new program color and added a new class and code documentation.
 '''
 
-
 from tkinter import *
 import os
 import sys
-import pygame
+import pygame # use pygame
+
 
 def add(a,b):
     return a + b
@@ -67,6 +68,7 @@ def calculate():
             list.delete(0,END)
             list.insert(END,'something went wrong please enter again')
 
+# operators            
 operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
                 'SUB':sub , 'DIFFERENCE':sub , 'MINUS':sub , 'SUBTRACT':sub,
                  'LCM':lcm , 'HCF':hcf , 'PRODUCT':mul , 'MULTIPLICATION':mul,
@@ -81,7 +83,7 @@ win.configure(bg='FF3390') # your color programm
 
 l1 = Label(win , text='I am a Program',width=130 , padx=9)
 l1.place(x=150,y=10)
-l2 = Label(win , text='My name is Vaben' , padx=9)
+l2 = Label(win , text='My name is Vaben v.1.3' , padx=9)
 l2.place(x=200,y=60)
 l3 = Label(win , text='What can i help you' , padx=3)
 l3.place(x=176,y=130)
@@ -96,7 +98,7 @@ b1.place(x=210,y=200)
 list = Listbox(win,width=20,height=3)
 list.place(x=150,y=230)
 
-win.mainloop()
+win.mainloop() # exit()
 
 webbrowser.open_new_tab("https://Github.com/Lencof")
 
