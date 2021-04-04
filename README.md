@@ -8,6 +8,8 @@ especially my opinion
 I appreciate every work, 
 Development of this program.
 
-# Disclaimer: This project is under active development
-
 ## Install
+- Clone the repository `git clone https://github.com/teja156/microsoft-teams-class-attender`
+
+
+# Disclaimer: This project is under active development
