@@ -9,7 +9,7 @@ I appreciate every work,
 Development of this program.
 
 ## Basic Requirements
-download Python from this site go to this link and download https://www.python.org and download the new version.
+Download Python from this site go to this link and download https://www.python.org and download the new version.
 
 
 ## Install
