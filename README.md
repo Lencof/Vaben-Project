@@ -9,7 +9,7 @@ I appreciate every work,
 Development of this program.
 
 ## Install
-- Clone the repository `git clone https://github.com/teja156/microsoft-teams-class-attender`
+- Clone the repository `git clone https://github.com/Lencof/Vaben-Project`
 
 
 # Disclaimer: This project is under active development
