@@ -12,5 +12,6 @@ Development of this program.
 - Clone the repository `git clone https://github.com/Lencof/Vaben-Project`
 - Install requirements.txt `pip install -r requirements.txt
 
+## Basic Requirements
 
 # Disclaimer: This project is under active development
