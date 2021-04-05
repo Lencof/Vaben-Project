@@ -14,7 +14,7 @@ Download Python from this site go to this link and download https://www.python.o
 
 ## Install
 - Clone the repository `git clone https://github.com/Lencof/Vaben-Project`
-- Install requirements.txt `pip install -r requirements.txt
+- Install requirements.txt `pip install -r requirements.txt`
 
 
 ## Use Pyinstaller
