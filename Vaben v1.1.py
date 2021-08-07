@@ -4,7 +4,7 @@
 Added the Calc class, after exiting Vaben, the Calculator comes off
 '''
 
-import os # use os
+import os
 from tkinter import *
 
 def add(a,b):
