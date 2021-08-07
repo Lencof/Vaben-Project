@@ -6,9 +6,9 @@ added a class that implements. after closing the Vaben program, you go to My Git
 """
 
 from tkinter import *
-import os # use os
-import sys # use sys
-import webbrowser # use webbrowser
+import os 
+import sys 
+import webbrowser 
 
 def add(a,b):
     return a + b
