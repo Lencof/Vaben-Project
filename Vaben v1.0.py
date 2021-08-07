@@ -3,7 +3,7 @@
 # added new wichi. after exiting Vaben, the system turns off.
 # Simply put, I added the shutdown class.
 
-import os # use os
+import os 
 from tkinter import *
 
 def add(a,b):
