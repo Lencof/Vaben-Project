@@ -9,8 +9,8 @@ added a new program color and added a new class and code documentation.
 from tkinter import *
 import os
 import sys
-import pygame # use pygame
-import webbrowser # use webbrowser
+import pygame 
+import webbrowser 
 
 def add(a,b):
     return a + b
