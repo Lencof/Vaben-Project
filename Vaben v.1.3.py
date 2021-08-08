@@ -98,10 +98,8 @@ b1.place(x=210,y=200)
 list = Listbox(win,width=20,height=3)
 list.place(x=150,y=230)
 
-win.mainloop() # exit()
+win.mainloop() 
 
 webbrowser.open_new_tab("https://Github.com/Lencof")
 
-class Asma(): # create class Asma():
-    pass # an empty block
 
