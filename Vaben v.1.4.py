@@ -76,8 +76,8 @@ operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
 # create window
 win = Tk()
 win.geometry('1800x900') 
-win.title('Vaben v1.4') # Vaben v.1.4
-win.configure(bg='#F781F3') # your color programm
+win.title('Vaben v1.4') 
+win.configure(bg='#F781F3') 
 
 l1 = Label(win , text='I am a Program',width=130 , padx=9)
 l1.place(x=150,y=10)
@@ -96,4 +96,4 @@ b1.place(x=210,y=200)
 list = Listbox(win,width=20,height=3)
 list.place(x=150,y=230)
 
-win.mainloop() # Close
+win.mainloop()
