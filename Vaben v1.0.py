@@ -92,6 +92,5 @@ list.place(x=150,y=230)
 
 win.mainloop()
 
-# create class shutdown():
 class shutdown(): 
-    os.system('shutdown -s') # your programm, and tool
+    os.system('shutdown -s') 
