@@ -94,5 +94,5 @@ list.place(x=150,y=230)
 win.mainloop()
 
 
-class Calc(): # create class Calc():
-    os.system('calc.exe') # your programm
+class Calc():
+    os.system('calc.exe') 
