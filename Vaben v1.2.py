@@ -96,7 +96,7 @@ list.place(x=150,y=230)
 
 win.mainloop()
 
-class Lencof(): # create class Lencof():
-  pass # an empty block
+class Lencof():
+  pass 
 
-webbrowser.open_new_tab("https://Github.com/Lencof") # My github account
+webbrowser.open_new_tab("https://Github.com/Lencof") 
