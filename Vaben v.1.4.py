@@ -67,7 +67,6 @@ def calculate():
             list.delete(0,END)
             list.insert(END,'something went wrong please enter again')
 
-# create operators 
 operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
                 'SUB':sub , 'DIFFERENCE':sub , 'MINUS':sub , 'SUBTRACT':sub,
                  'LCM':lcm , 'HCF':hcf , 'PRODUCT':mul , 'MULTIPLICATION':mul,
@@ -76,7 +75,7 @@ operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
 
 # create window
 win = Tk()
-win.geometry('1800x900') # your size
+win.geometry('1800x900') 
 win.title('Vaben v1.4') # Vaben v.1.4
 win.configure(bg='#F781F3') # your color programm
 
